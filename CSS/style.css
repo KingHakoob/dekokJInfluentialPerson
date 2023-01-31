@@ -1,0 +1,180 @@
+body {
+    background-color: black;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+}
+
+/* Navbar Start */
+.navbar {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    padding-bottom: 0;
+    border-bottom: 0.1rem solid white;
+}
+
+#navHome {
+    color: white;
+    font-size: 2rem;
+}
+
+#navHome:hover {
+    color: black;
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.navDiv {
+    display: flex;
+    justify-content: end;
+    padding-right: 4rem;
+}
+
+.navLeftText {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.navLeftText:hover {
+    color: black;
+    background-color: white;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.navMiddleText {
+    color: white;
+    font-size: 1.5rem;
+    border-left: 0.1rem solid white;
+    border-right: 0.1rem solid white;
+}
+
+.navMiddleText:hover {
+    color: black;
+    background-color: white;
+}
+
+.navRightText {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.navRightText:hover {
+    color: black;
+    background-color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+/* Navbar End */
+
+/* Home Body Start */
+#elizarPic {
+    padding-top: 4rem;
+    width: 20rem;
+    height: auto;
+    border-radius: 10px;
+}
+
+#bioCol {
+    padding-top: 4rem;
+}
+
+#bioDiv {
+    background-color: white;
+    border-radius: 5px;
+    margin-right: 15%;
+    width: 85%;
+}
+
+#bioTitle {
+    border-bottom: 0.25rem solid black;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+#bioText {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1.5rem;
+    color: black;
+}
+/* Home Body End */
+
+/* Influence Body Start */
+#icu {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 70%;
+}
+
+#influenceTitleDiv {
+    background-color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#influenceTitle {
+    text-align: center;
+    font-size: 3rem;
+    color: black;
+}
+
+#influenceDiv {
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+}
+
+#influenceText {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: white;
+    font-size: 1.5rem;
+}
+/* Influence Body End */
+
+/* Social Start */
+#instaProfile {
+    padding-top: 1rem;
+    width: 80%;
+}
+
+#instaPost {
+    padding-top: 1rem;
+    width: 80%;
+}
+
+#elizarMagic {
+    width: 80%;
+}
+/* Social End */
+
+/* For Honor Start */
+.clips {
+    padding-top: 3rem;
+    width: 80%;
+}
+/* For Honor End */
+
+@media screen and (max-width: 991px) {
+    .navMiddleText {
+        border-left: none;
+        border-right: none;
+    }
+}
